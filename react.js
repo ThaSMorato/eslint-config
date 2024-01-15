@@ -23,7 +23,8 @@ module.exports = {
     'react',
     'jsx-a11y',
     '@typescript-eslint',
-    'simple-import-sort'
+    'simple-import-sort',
+    'import'
   ],
   rules: {
     "react/self-closing-comp": "error",
@@ -53,7 +54,10 @@ module.exports = {
     'react/no-unknown-property': 'error',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
     "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error"
   },
   settings: {
     react: {
