@@ -22,9 +22,11 @@ module.exports = {
         semi: false,
       },
     ],
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
+    ],
     "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error"
