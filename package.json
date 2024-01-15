@@ -1,5 +1,5 @@
 {
-  "name": "eslint",
+  "name": "@thasmorato/eslint-config",
   "version": "1.0.0",
   "description": "My EsLint configurations",
   "main": "index.js",
