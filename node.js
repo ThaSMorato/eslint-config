@@ -22,13 +22,14 @@ module.exports = {
         semi: false,
       },
     ],
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   },
   settings: {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
+
   },
 }

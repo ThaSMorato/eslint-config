@@ -45,6 +45,9 @@ module.exports = {
     'jsx-a11y/role-has-required-aria-props': 'error',
     'jsx-a11y/role-supports-aria-props': 'error',
     'react/no-unknown-property': 'error',
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   },
   settings: {
     react: {
@@ -53,8 +56,5 @@ module.exports = {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePatther: '^_', varsIgnotePatter: '^_' }],
-    "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error"
   }
 }
